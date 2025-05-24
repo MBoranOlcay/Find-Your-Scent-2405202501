@@ -3,7 +3,7 @@
 // "use client"; // Bu satır KALDIRILDI, artık bir Sunucu Bileşeni
 
 import { supabase } from '@/lib/supabaseClient';
-import type { Product as Perfume, FragranceNote, ProductDetails } from '@/types'; // Gerekli tipler
+import type { Product as Perfume, ProductDetails } from '@/types'; // Gerekli tipler
 import PerfumeListClient from '@/components/PerfumeListClient'; // İstemci Bileşenimiz
 import type { Metadata } from 'next';
 
